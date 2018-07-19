@@ -20,7 +20,7 @@ $ cd resources/lang/
 Efetue o clone deste repositório setando a versão do framework
 
 ```
-git clone https://github.com/UpInside/laravel-pt-BR.git ./pt-BR
+git clone -b 'v5.6' --single-branch https://github.com/UpInside/laravel-pt-BR.git ./pt-BR
 ```
 
 Nesse momento será feito o clone do repositório para dentro do seu projeto!<br />
