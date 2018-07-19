@@ -35,10 +35,14 @@ $ rm -rf pt-BR/.git/
 
 Agora basta informar ao Laravel de que há outro idioma. Para isso, edite o arquivo `/config/app.php` e altere o valor da propriedade `locale` para `pt-br`
 
+```
+'locale' => 'pt-br',
+```
+
 ## Contribuição
 Deseja enviar correções de alguma tradução? Só efetuar um pull-request deste repositório e efetuar a alteração dentro de uma nova branch (que não seja a `master`).<br />
 
 Crie uma branch com seu nome e a versão (`gustavo-web-5.6`) com as correções para que seja aprovada.<br />
 Maiores informações, você pode ter através de [cursos@upinside.com.br](cursos@upinside.com.br).<br />
 
-@github/guhweb que mantém esse projeto rodando!
+@guhweb que mantém esse projeto rodando!
