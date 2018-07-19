@@ -7,7 +7,7 @@ O laravel deve estar instalado e rodando normalmente dentro do seu ambiente (ind
 ### Aviso
 Esse procedimento pode sobrescrever os seus atuais arquivos de tradução caso existam! Portanto, tenha certeza de ter feito o backup do seu projeto antes de continuar com qualquer passo.<br />
 
-Cada versão tende a ter sua própria release/tag. Você deve efetuar o download/clone de acordo com a versão do framework correspondente.
+Cada versão tende a ter sua própria **release/tag**. Você deve efetuar o **download/clone** de acordo com a versão do framework correspondente.
 
 ## Instalação
 
@@ -45,4 +45,4 @@ Deseja enviar correções de alguma tradução? Só efetuar um pull-request dest
 Crie uma branch com seu nome e a versão (`gustavo-web-5.6`) com as correções para que seja aprovada.<br />
 Maiores informações, você pode ter através de [cursos@upinside.com.br](cursos@upinside.com.br).<br />
 
-@guhweb que mantém esse projeto rodando!
+[@guhweb](https://github.com/guhweb) que mantém esse projeto rodando!
