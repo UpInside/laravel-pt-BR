@@ -31,7 +31,9 @@ return [
     ],
     'boolean'              => 'O campo :attribute deve conter o valor verdadeiro ou falso.',
     'confirmed'            => 'A confirmação para o campo :attribute não coincide.',
+    'current_password'     => 'A senha está incorreta.',
     'date'                 => 'O campo :attribute não contém uma data válida.',
+    'date_equals'          => 'O campo :attribute deve conter uma data igual a :date.',
     'date_format'          => 'A data informada para o campo :attribute não respeita o formato :format.',
     'different'            => 'Os campos :attribute e :other devem conter valores diferentes.',
     'digits'               => 'O campo :attribute deve conter :digits dígitos.',
@@ -39,6 +41,7 @@ return [
     'dimensions'           => 'O valor informado para o campo :attribute não é uma dimensão de imagem válida.',
     'distinct'             => 'O campo :attribute contém um valor duplicado.',
     'email'                => 'O campo :attribute não contém um endereço de email válido.',
+    'ends_with'            => 'O campo :attribute deve terminar em :values.',
     'exists'               => 'O valor selecionado para o campo :attribute é inválido.',
     'file'                 => 'O campo :attribute deve conter um arquivo.',
     'filled'               => 'O campo :attribute é obrigatório.',
@@ -88,9 +91,11 @@ return [
         'string'  => 'O campo :attribute deve conter no mínimo :min caracteres.',
         'array'   => 'O campo :attribute deve conter no mínimo :min itens.',
     ],
+    'multiple_of'          => 'O campo :attribute precisa ser múltiplo de :value.',
     'not_in'               => 'O campo :attribute contém um valor inválido.',
     'not_regex'            => 'The :attribute format is invalid.',
     'numeric'              => 'O campo :attribute deve conter um valor numérico.',
+    'password'             => 'A senha está incorreta.',
     'present'              => 'O campo :attribute deve estar presente.',
     'regex'                => 'O formato do valor informado no campo :attribute é inválido.',
     'required'             => 'O campo :attribute é obrigatório.',
@@ -100,6 +105,8 @@ return [
     'required_with_all'    => 'O campo :attribute é obrigatório quando um dos :values está presente.',
     'required_without'     => 'O campo :attribute é obrigatório quando :values não está presente.',
     'required_without_all' => 'O campo :attribute é obrigatório quando nenhum dos :values está presente.',
+    'prohibited_if'        => 'O campo :attribute é proibido quando :other é :value.',
+    'prohibited_unless'    => 'O campo :attribute é proibido a menos que :other esteja em :values.',
     'same'                 => 'Os campos :attribute e :other devem conter valores iguais.',
     'size'                 => [
         'numeric' => 'O campo :attribute deve conter o número :size.',
@@ -107,11 +114,13 @@ return [
         'string'  => 'O campo :attribute deve conter :size caracteres.',
         'array'   => 'O campo :attribute deve conter :size itens.',
     ],
+    'starts_with' => 'The :attribute must start with one of the following: :values.',
     'string'               => 'O campo :attribute deve ser uma string.',
     'timezone'             => 'O campo :attribute deve conter um fuso horário válido.',
     'unique'               => 'O valor informado para o campo :attribute já está em uso.',
     'uploaded'             => 'Falha no Upload do arquivo :attribute.',
     'url'                  => 'O formato da URL informada para o campo :attribute é inválido.',
+    'uuid'                 => 'O campo :attribute precisa ser um UUID válido.',
 
     /*
     |--------------------------------------------------------------------------
@@ -173,5 +182,7 @@ return [
         'username' => 'usuário',
         'year' => 'ano',
     ],
+
+
 
 ];
